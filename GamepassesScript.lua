@@ -202,7 +202,6 @@ if Unlock_Everything then
 end
 if not Unlock_Everything then
     if Unlock_PlayerCustomization_Gamepasses then
-        print("Unlock_PlayerCustomization_Gamepasses")
 			spawn(function() while wait(.5) do
 			if PlayerGui:FindFirstChild("Loading") then else
 				spawn(function()UnlockGamepasses()end)
@@ -211,7 +210,6 @@ if not Unlock_Everything then
 		end end)
 	end
 	if Unlock_VIW then
-	    print("Unlock_VIW")
 		spawn(function() while wait(.5) do
 			if PlayerGui:FindFirstChild("MorphGUI") then else
 				spawn(function()AddVIW()end)
@@ -219,7 +217,6 @@ if not Unlock_Everything then
 		end end)
 	end
 	if Unlock_VIW_Music then
-	    print("Unlock_VIW_Music")
 		spawn(function() while wait(.5) do
 			if PlayerGui:FindFirstChild("MorphGUI") then else
 				spawn(function()UnlockViwMusic()end)
@@ -228,7 +225,6 @@ if not Unlock_Everything then
 		end end)
 	end
 	if Unlock_VIW_Name_Color then
-	    print("Unlock_VIW_Name_Color")
 		spawn(function() while wait(.5) do
 			if PlayerGui:FindFirstChild("MorphGUI") then else
 				spawn(function()UnlockNameColor()end)
@@ -238,7 +234,6 @@ if not Unlock_Everything then
 	end
 end
 if ViewPlayersPoints then
-    print("ViewPlayersPoints")
 	spawn(function() while wait(.5) do
 		if PlayerGui:FindFirstChild("MorphGUI") then else
 			spawn(function()VPP()end)
